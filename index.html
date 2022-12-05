@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My minified  CSS version link -Local Dev -->
+    <!-- <link rel="stylesheet" href="assets/css/simplified.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/WabweniBrian/css-utility-classes/assets/css/simplified.css"
+    />
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Feather Icons link -->
+    <link rel="stylesheet" href="assets/feather-icons/feather.css" />
+    <!-- Font Awesome link - Local Dev -->
+    <!-- <link rel="stylesheet" href="assets/fonts/css/all.css" /> -->
+    <!-- Font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="assets/Swiper/css/swiper.min.css" />
+    <title>Pisix</title>
+  </head>
+  <body>
+    <!-- Back to top button -->
+    <button class="btn btn-circle custom-btn back-to-top-btn">
+      <i class="feather-chevron-up"></i>
+    </button>
+
+    <div class="loader-wrapper"><div class="loader"></div></div>
+    <!-------------------------Header------------------------------------ -->
+    <header
+      class="navbar navbar-fixed navbar-slideIn navbar-shadow border-bottom-light"
+    >
+      <nav>
+        <a href="index.html" class="logo">
+          <img src="assets/images/Logo.png" alt="" />
+        </a>
+        <ul class="navbar-menu menu-y flex-align-center">
+          <li class="nav-item">
+            <a href="" class="nav-link active">home</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-link">pages</a></li>
+          <li class="nav-item"><a href="" class="nav-link">portifolio</a></li>
+          <li class="nav-item"><a href="" class="nav-link">blog</a></li>
+          <li class="nav-item"><a href="" class="nav-link">contacts</a></li>
+        </ul>
+        <div class="navbar-toggle">
+          <img src="assets/images/Search.png" alt="" width="20" />
+          <img src="assets/images/Filter.png" alt="" width="20" />
+          <button class="navbar-toggle-icon pl-1 pr-1">
+            <i class="icon fa fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-------------------------//Header------------------------------------ -->
+
+    <!-------------------------Main------------------------------------ -->
+
+    <main>
+      <!-------------------------Hero------------------------------------ -->
+      <section class="hero pb-8">
+        <div class="flex-center-center text-center">
+          <div>
+            <h2 class="heading mx-auto">your business</h2>
+            <h1 class="text-50 my-2">
+              we execute our <br />
+              ideas from start <br />
+              to finish
+            </h1>
+
+            <p class="text-muted text-13">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+              enim perferendis repellendus quasi aliquam iure?
+            </p>
+
+            <button class="btn custom-btn mx-auto my-2">explore more</button>
+            <a href="#" class="underline">watch video</a>
+          </div>
+        </div>
+      </section>
+      <!-------------------------//Hero------------------------------------ -->
+      <!-------------------------About Us------------------------------------ -->
+      <section class="about-us light-teal">
+        <div class="flex-center-center flex-wrap gap-2">
+          <div class="grow-shrink-14">
+            <img
+              src="assets/images/Image.png"
+              alt=""
+              class="w-70 p-2 bluish-gradient rounded"
+            />
+          </div>
+          <div class="grow-shrink-20">
+            <h2 class="heading">about us</h2>
+            <h1 class="my-2">
+              we deal with the aspects of <br />
+              professional it services
+            </h1>
+            <p class="text-14">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae tenetur nemo pariatur eligendi explicabo at
+              perspiciatis nisi asperiores reiciendis tempora!
+            </p>
+
+            <div
+              class="flex-align-center gap-1 bluish-gradient p-1 rounded-sm mt-3"
+            >
+              <img src="assets/images/Icon.png" alt="" width="30" />
+              <div>
+                <h1 class="text-16">experience</h1>
+                <p class="text-muted text-13">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quisquam, quas!
+                </p>
+              </div>
+            </div>
+            <div class="flex-align-center gap-1 p-1 rounded-sm mt-3">
+              <img src="assets/images/headphone.png" alt="" width="30" />
+              <div>
+                <h1 class="text-16">quick support</h1>
+                <p class="text-muted text-13">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quisquam, quas!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------------------//About Us------------------------------------ -->
+      <!-------------------------Services------------------------------------ -->
+      <section class="services">
+        <div class="text-center">
+          <h2 class="heading mx-auto">services</h2>
+          <h1 class="text-22 my-2">
+            services that lead the <br />
+            to better business
+          </h1>
+        </div>
+        <div class="flex-center-center flex-wrap gap-2 mt-4">
+          <div class="box grow-shrink-16 p-2 text-center cursor-pointer">
+            <img src="assets/images/icon-1.png" alt="" width="30" />
+            <h1 class="text-16 my-2">digital solution</h1>
+            <p class="text-muted text-13">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae odit magni, veritatis enim aspernatur exercitationem.
+            </p>
+          </div>
+
+          <div class="box grow-shrink-16 p-2 text-center cursor-pointer">
+            <img src="assets/images/icon-6.png" alt="" width="30" />
+            <h1 class="text-16 my-2">branding</h1>
+            <p class="text-muted text-13">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae odit magni, veritatis enim aspernatur exercitationem.
+            </p>
+          </div>
+
+          <div class="box grow-shrink-16 p-2 text-center cursor-pointer">
+            <img src="assets/images/icon-2.png" alt="" width="30" />
+            <h1 class="text-16 my-2">business plan</h1>
+            <p class="text-muted text-13">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae odit magni, veritatis enim aspernatur exercitationem.
+            </p>
+          </div>
+
+          <div class="box grow-shrink-16 p-2 text-center cursor-pointer">
+            <img src="assets/images/icon-3.png" alt="" width="30" />
+            <h1 class="text-16 my-2">marketing policy</h1>
+            <p class="text-muted text-13">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae odit magni, veritatis enim aspernatur exercitationem.
+            </p>
+          </div>
+
+          <div class="box grow-shrink-16 p-2 text-center cursor-pointer">
+            <img src="assets/images/icon-4.png" alt="" width="30" />
+            <h1 class="text-16 my-2">creative strategy</h1>
+            <p class="text-muted text-13">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae odit magni, veritatis enim aspernatur exercitationem.
+            </p>
+          </div>
+
+          <div class="box grow-shrink-16 p-2 text-center cursor-pointer">
+            <img src="assets/images/icon-5.png" alt="" width="30" />
+            <h1 class="text-16 my-2">campaign</h1>
+            <p class="text-muted text-13">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae odit magni, veritatis enim aspernatur exercitationem.
+            </p>
+          </div>
+        </div>
+        <div class="flex-center-center mt-2">
+          <a href="#" class="px-2 pt-1 pb-1"
+            >view all <i class="feather-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+      <!-------------------------//Services------------------------------------ -->
+      <!-------------------------About------------------------------------ -->
+      <section class="about">
+        <div class="flex-center-center flex-wrap gap-2">
+          <div class="grow-shrink-12">
+            <div class="p-2 rounded-sm bg-white shadow">
+              <img
+                src="assets/images/flat-lay-abstract-composition-with-innovation-elements 1.png"
+                alt=""
+                class="image rounded-sm"
+              />
+              <button class="w-100 rounded-sm btn custom-btn mt-2">
+                unlock <i class="feather-lock"></i>
+              </button>
+            </div>
+          </div>
+          <div class="grow-shrink-20">
+            <h1 class="heading">about the company</h1>
+            <h1 class="my-2 text-22">creative solutions</h1>
+            <p class="text-14">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              error vero repellat quis quasi omnis.
+            </p>
+            <p class="text-muted text-13 my-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas
+              perferendis accusamus provident labore, nemo vitae, incidunt
+              officiis modi beatae accusantium blanditiis, quasi repellendus
+              iste quaerat earum odio animi. Quibusdam consequuntur unde quis.
+              Tempora, reiciendis!
+            </p>
+
+            <a
+              href="#"
+              class="about-btn flex-align-center gap-1 mt-1 primary-color capitalize"
+            >
+              <button class="btn btn-circle custom-btn">
+                <i class="fa fa-play"></i>
+              </button>
+              <div class="text-left">
+                <p class="text-13">watch our</p>
+                <p class="text-muted text-13">two minute intro</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-------------------------//About------------------------------------ -->
+      <!-------------------------Portifolio------------------------------------ -->
+      <section class="portifolio">
+        <div
+          class="filter-links flex-center-between max-w-500 w-100 mx-auto my-2 bg-white shadow-md text-13 rounded-sm"
+        >
+          <!-- Filter Links -->
+        </div>
+        <div class="projects flex-center-center flex-wrap gap-2 mt-4">
+          <!-- Projects -->
+        </div>
+
+        <div class="flex-center-center mt-2">
+          <a href="#" class="px-2 pt-1 pb-1"
+            >view all <i class="feather-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+      <!-------------------------//Portifolio------------------------------------ -->
+      <!-------------------------Achievement------------------------------------ -->
+      <section class="showcase">
+        <div class="flex-center-center flex-wrap gap-2">
+          <div class="grow-shrink-25">
+            <h1 class="text-22 my-2">our achievement</h1>
+            <p class="text-muted text-13">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              quod rerum quis quisquam hic molestias.
+            </p>
+            <div class="flex-align-center gap-1 mt-4">
+              <div class="p-2 rounded-sm text-center card1-bg">
+                <h1 class="text-22">1050</h1>
+                <p class="text-muted mt-1 text-12 capitalize">
+                  completed projects
+                </p>
+              </div>
+              <div class="p-2 rounded-sm text-center card2-bg">
+                <h1 class="text-22">599</h1>
+                <p class="text-muted mt-1 text-12 capitalize">
+                  satified clients
+                </p>
+              </div>
+              <div class="p-2 rounded-sm text-center card3-bg">
+                <h1 class="text-22">25</h1>
+                <p class="text-muted mt-1 text-12 capitalize">team members</p>
+              </div>
+              <div class="p-2 rounded-sm text-center card4-bg">
+                <h1 class="text-22">50</h1>
+                <p class="text-muted mt-1 text-12 capitalize">
+                  national awards winner
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="grow-shrink-10 self-end">
+            <img src="assets/images/achievement.png" alt="" class="image" />
+          </div>
+        </div>
+      </section>
+      <!-------------------------//Achievement------------------------------------ -->
+      <!-------------------------Team------------------------------------ -->
+      <section class="team">
+        <div class="text-center">
+          <h2 class="heading mx-auto">team</h2>
+          <h1 class="my-2 text-22">professional team</h1>
+          <p class="text-muted text-13">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+            asperiores officia nesciunt maxime facilis quis!
+          </p>
+        </div>
+        <div class="relative px-6 mt-4">
+          <div class="swiper-container team-container">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide p-1 rounded-sm card1-bg overflow-hidden cursor-pointer"
+              >
+                <img
+                  src="assets/images/person1.png"
+                  alt=""
+                  class="image transition-all"
+                />
+              </div>
+              <div
+                class="swiper-slide p-1 rounded-sm card2-bg overflow-hidden cursor-pointer"
+              >
+                <img
+                  src="assets/images/person2.png"
+                  alt=""
+                  class="image transition-all"
+                />
+              </div>
+              <div
+                class="swiper-slide p-1 rounded-sm card4-bg overflow-hidden cursor-pointer"
+              >
+                <img
+                  src="assets/images/person4.png"
+                  alt=""
+                  class="image transition-all"
+                />
+              </div>
+              <div
+                class="swiper-slide p-1 rounded-sm card3-bg overflow-hidden cursor-pointer"
+              >
+                <img
+                  src="assets/images/person3.png"
+                  alt=""
+                  class="image transition-all"
+                />
+              </div>
+              <div
+                class="swiper-slide p-1 rounded-sm card4-bg overflow-hidden cursor-pointer"
+              >
+                <img
+                  src="assets/images/person4.png"
+                  alt=""
+                  class="image transition-all"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="flex-center-center mt-2">
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <button
+            class="btn-circle btn-primary-outlined shadow cursor-pointer prev absolute v-center left-0"
+          >
+            <i class="feather-chevron-left"></i></button
+          ><button
+            class="btn-circle btn-primary-outlined shadow cursor-pointer next absolute v-center right-0"
+          >
+            <i class="feather-chevron-right"></i>
+          </button>
+        </div>
+      </section>
+      <!-------------------------//Team------------------------------------ -->
+      <!-------------------------Partners------------------------------------ -->
+      <section class="about-team">
+        <h1 class="text-22 text-center">our most honorable partners</h1>
+        <div
+          class="flex-center-center flex-wrap gap-6 rounded-sm bg-white p-2 shadow my-3"
+        >
+          <img
+            src="assets/images/Alibaba_Group-Logo.wine 1.png"
+            alt=""
+            width="80"
+          />
+          <img src="assets/images/Pinterest-Logo.wine.png" alt="" width="80" />
+          <img
+            src="assets/images/Dropbox_(service)-Logo.wine.png"
+            alt=""
+            width="80"
+          />
+          <img
+            src="assets/images/Amazon_(company)-Logo.wine.png"
+            alt=""
+            width="80"
+          />
+          <img src="assets/images/SpaceX-Logo.wine.png" alt="" width="80" />
+        </div>
+        <button class="btn custom-btn mx-auto my-2 rounded-sm">
+          meet our partners
+        </button>
+      </section>
+      <!-------------------------//Partners------------------------------------ -->
+      <!-------------------------Reviews------------------------------------ -->
+      <section class="reviews pb-8">
+        <div class="flex-center-center flex-wrap gap-2">
+          <div class="grow-shrink-16 w-10">
+            <i class="fa fa-quote-right primary-color text-25 opacity-2"></i>
+            <h1 class="my-2 text-22">customers' stories</h1>
+            <div class="swiper-container review-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide p-3">
+                  <div class="review-profile flex-align-center gap-1">
+                    <img
+                      src="assets/images/10 5.png"
+                      alt=""
+                      class="profile-avatar p-1 bg-white shadow"
+                    />
+                    <div class="text-left">
+                      <h1 class="text-14">justin pierre</h1>
+                      <p class="text-muted text-13 capitalize">
+                        project manager, apple
+                      </p>
+                      <div
+                        class="secondary-color flex-align-center gap-1 text-12"
+                      >
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted text-13 italics mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati beatae sit, qui ad accusantium rem laudantium
+                    ipsam libero molestias voluptate repudiandae corporis modi
+                    alias voluptas!
+                  </p>
+                  <a href="#" class="primary-color uppercase mt-2"
+                    >read more <i class="feather-arrow-right"></i
+                  ></a>
+                </div>
+
+                <div class="swiper-slide p-3">
+                  <div class="review-profile flex-align-center gap-1">
+                    <img
+                      src="assets/images/image 121.png"
+                      alt=""
+                      class="profile-avatar p-1 bg-white shadow"
+                    />
+                    <div class="text-left">
+                      <h1 class="text-14">raven kent</h1>
+                      <p class="text-muted text-13 capitalize">CEO, wabtech</p>
+                      <div
+                        class="secondary-color flex-align-center gap-1 text-12"
+                      >
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted text-13 italics mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati beatae sit, qui ad accusantium rem laudantium
+                    ipsam libero molestias voluptate repudiandae corporis modi
+                    alias voluptas!
+                  </p>
+                  <a href="#" class="primary-color uppercase mt-2"
+                    >read more <i class="feather-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="flex-align-center gap-2 slider-controls">
+              <i
+                class="feather-arrow-left prev primary-color cursor-pointer p-2"
+              ></i>
+              <i
+                class="feather-arrow-right next primary-color cursor-pointer p-2"
+              ></i>
+            </div>
+          </div>
+
+          <div class="grow-shrink-16">
+            <div class="reviews p-1 rounded-lg bluish-gradient relative">
+              <img src="assets/images/reviews.png" alt="" class="w-60" />
+              <img
+                src="assets/images/image 121.png"
+                alt=""
+                class="width-60 p-2 rounded-sm bg-white shadow absolute left-0 -ml-2 top-4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------------------//Reviews------------------------------------ -->
+      <!-------------------------NewsLetter------------------------------------ -->
+      <section class="newsletter py-4">
+        <div class="max-w-500 w-95 mx-auto text-center text-white">
+          <h2 class="text-25 capitalize">subscribe to our newsletter</h2>
+          <p class="text-13 my-2">
+            We operate our banking services in many countries around the world
+          </p>
+          <div class="flex-align-center gap-2">
+            <input
+              name=""
+              id=""
+              type="text"
+              class="form-control"
+              placeholder="Enter email address..."
+            />
+            <button class="btn bg-white shadow rounded-sm capitalize width-150">
+              get started
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-------------------------//NewsLetter------------------------------------ -->
+    </main>
+    <!-------------------------//Main------------------------------------ -->
+
+    <!-------------------------Footer------------------------------------ -->
+    <footer class="border-bottom-light">
+      <div class="flex flex-wrap gap-2">
+        <div class="grow-shrink-10">
+          <div class="logo">
+            <a href="index.html">
+              <img src="assets/images/Logo.png" alt="" />
+            </a>
+          </div>
+
+          <div class="flex-align-center gap-2 my-2">
+            <button class="btn custom-btn rounded-sm">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button class="btn custom-btn rounded-sm">
+              <i class="fab fa-instagram"></i>
+            </button>
+            <button class="btn custom-btn rounded-sm">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button class="btn custom-btn rounded-sm">
+              <i class="fab fa-linkedin"></i>
+            </button>
+          </div>
+        </div>
+        <div class="grow-shrink-40">
+          <div class="flex flex-wrap">
+            <div class="grow-shrink-10 text-12">
+              <h2 class="text-15 border-bottom-light">Solutions</h2>
+              <ul>
+                <li class="my-2 text-muted"><a href="#"> carriers</a></li>
+                <li class="my-2 text-muted"><a href="#">brokers</a></li>
+                <li class="my-2 text-muted"><a href="#">shippers</a></li>
+                <li class="my-2 text-muted"><a href="#">drivers</a></li>
+              </ul>
+            </div>
+
+            <div class="grow-shrink-10 text-12">
+              <h2 class="text-15 border-bottom-light">Resources</h2>
+              <ul>
+                <li class="my-2 text-muted"><a href="#"> blog</a></li>
+                <li class="my-2 text-muted"><a href="#">press releases</a></li>
+              </ul>
+            </div>
+            <div class="grow-shrink-10 text-12">
+              <h2 class="text-15 border-bottom-light">careers</h2>
+              <ul>
+                <li class="my-2 text-muted"><a href="#"> open roles</a></li>
+                <li class="my-2 text-muted"><a href="#">benefits</a></li>
+              </ul>
+            </div>
+            <div class="grow-shrink-10 text-12">
+              <h2 class="text-15 border-bottom-light">contact us</h2>
+              <ul>
+                <li class="my-2 text-muted"><a href="#"> support</a></li>
+                <li class="my-2 text-muted"><a href="#">sales</a></li>
+                <li class="my-2 text-muted"><a href="#">media inquiries</a></li>
+                <li class="my-2 text-muted"><a href="#">log in</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <p class="text-center text-14 pt-2">
+      Created By <span class="text-muted underline">Wabweni Brian</span> | All
+      Rights Reserved
+    </p>
+    <!-------------------------//Footer------------------------------------ -->
+    <!-- Swiiper -->
+    <script src="assets/Swiper/js/swiper.min.js"></script>
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
